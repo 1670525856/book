@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<import src="../moban/moban.wxml" />
+
+
+<view class="home">
+  <view class="top">
+    <view class="top-left iconfont icon-jiangbei"></view>
+    <view class="top-right iconfont icon-liebiao"></view>
+  </view>
+  <input class="input iconfont" placeholder="搜索..." placeholder-style="color:#9da3b4;"></input>
+
+
+  <view class="paihang">
+    <view class="sort-bt">
+      <view class="sort-bt-l">分类排行</view>
+      <view class="sort-bt-r">查看全部 ></view>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="dea-box">
+        <view class="dea" wx:for="{{sort}}" wx:key="key">
+          <image class="img" src="{{item.img}}"></image>
+          <view class="deaname"> {{item.name}} </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+
+  <view class="paihang">
+    <view class="sort-bt">
+      <view class="sort-bt-l">作者排行</view>
+      <view class="sort-bt-r">查看全部 ></view>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="dea-box">
+        <view class="dea" wx:for="{{zuozhe}}" wx:key="key">
+          <image class="img" src="{{item.img}}"></image>
+          <view class="deaname"> {{item.name}} </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="paihang">
+    <view class="sort-bt">
+      <view class="sort-bt-l">新发布</view>
+      <view class="sort-bt-r">查看全部 ></view>
+    </view>
+    <view class="dea-box newdea-box">
+      <view class="dea newdea" wx:for="{{xinfabu}}" wx:key="key">
+        <image class="newimg" src="{{item.img}}"></image>
+        <view class="bookname"> {{item.bookname}} </view>
+        <view class="newdeaname "> {{item.name}} </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="sousuo ">
+    <view class="sort-bt-l sort-bt">热门搜索</view>
+    <view class="sousuobqbox">
+      <view class="sousuobq" wx:for="{{bq}}" wx:key="key" style="color:{{item.color}};border:1rpx solid {{item.color}} ">{{item.title}}</view>
+    </view>
+  </view>
+
+  <view class="rexiao">
+    <view class="sort-bt">
+      <view class="sort-bt-l">热销榜</view>
+      <view class="sort-bt-r">查看全部 ></view>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="rexiaobox">
+        <view class="rexiao-dea" wx:for="{{rexiao}}" wx:key="key">
+          <image class="rexiaoimg" src="{{item.img}}"></image>
+          <view class="rexiao-dea-right">
+            <view class="rexiaobn">{{item.bookname}}</view>
+            <view class="rexiaon">{{item.name}}</view>
+            <view class="rexiaojs">{{item.jieshao}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+
+</view>

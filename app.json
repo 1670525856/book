@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/moban/moban"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#71768c",
+    "selectedColor": "#f54d82",
+    "backgroundColor": "#2a313a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./pages/image/Home.png",
+        "selectedIconPath": "./pages/image/Home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./pages/image/Shap.png",
+        "selectedIconPath": "./pages/image/Shape.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./pages/image/book.png",
+        "selectedIconPath": "./pages/image/books.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./pages/image/myself.png",
+        "selectedIconPath": "./pages/image/myselfs.png"
+      }
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

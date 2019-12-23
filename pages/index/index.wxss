@@ -1,0 +1,185 @@
+/**index.wxss**/
+@import "../image/iconfont.wxss";
+
+.home {
+  padding: 0 0 0 48rpx;
+  background-color: #21272e;
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 50rpx 50rpx 40rpx 0;
+}
+
+.top-left {
+  color: #fff;
+}
+
+.top-right {
+  color: #fff;
+}
+
+.search {
+  height: 100rpx;
+}
+
+.input {
+  width: 650rpx;
+  height: 95rpx;
+  background-color: #2d353d;
+  border-radius: 90rpx;
+  position: relative;
+  color: #9da3b4;
+  padding-left: 90rpx;
+  box-sizing: border-box;
+}
+
+.input::before {
+  content: '\e642';
+  font-size: 36rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+}
+
+.input::placeholder {
+  color: red;
+}
+
+.paihang {
+  border-bottom: 1rpx solid #2f343c;
+}
+
+.sort-bt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin-bottom: 45rpx;
+  padding-right: 50rpx;
+  margin-top: 55rpx;
+}
+
+.sort-bt-l {
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.sort-bt-r {
+  font-size: 28rpx;
+  color: #959bac;
+}
+
+.dea-box {
+  display: flex;
+  color: #fff;
+  padding-bottom: 55rpx;
+}
+
+.dea {
+  margin-right: 30rpx;
+}
+
+.img {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+
+.deaname {
+  margin-top: 20rpx;
+}
+
+.newdea {
+  margin-right: 40rpx;
+  margin-bottom: 95rpx;
+}
+
+.newimg {
+  width: 192rpx;
+  height: 296rpx;
+}
+
+.newdea-box {
+  padding-right: 48rpx;
+  margin-right: -48rpx;
+  flex-wrap: wrap;
+}
+
+.bookname {
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+}
+
+.newdeaname {
+  font-size: 24rpx;
+  color: #3d4352;
+}
+
+.sousuo {
+  border-bottom: 1rpx solid #2f343c;
+  padding-bottom: 15rpx;
+}
+
+.sousuobqbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sousuobq {
+  padding: 10rpx 40rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  margin-right: 30rpx;
+  margin-bottom: 25rpx;
+}
+
+.rexiaobox {
+  display: inline-flex;
+}
+
+.rexiao-dea {
+  width: 600rpx;
+  height: 250rpx;
+  background-color: #2b323b;
+  padding: 0 0 30rpx 30rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin: 75rpx 30rpx 80rpx 0rpx;
+}
+
+.rexiao-dea-right {
+  float: left;
+  width: 350rpx;
+}
+
+.rexiaoimg {
+  width: 170rpx;
+  height: 250rpx;
+  float: left;
+  margin-top: -30rpx;
+  margin-right: 28rpx;
+}
+
+.rexiaobn {
+  padding-top: 30rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.rexiaon {
+  color: #53596f;
+  margin-top: 13rpx;
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #353c46;
+  
+}
+
+.rexiaojs {
+  font-size: 24rpx;
+  color: #868dab;
+  margin-top: 15rpx;
+}
