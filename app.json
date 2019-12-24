@@ -1,8 +1,13 @@
 {
   "pages": [
+      "pages/search/search",
     "pages/index/index",
+    "pages/explore/explore",
+    "pages/scfi/scfi",
     "pages/logs/logs",
-    "pages/moban/moban"
+    "pages/moban/moban",
+    "components/tansuo/tansuo"
+  
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +26,7 @@
         "selectedIconPath": "./pages/image/Home.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/explore/explore",
         "iconPath": "./pages/image/Shap.png",
         "selectedIconPath": "./pages/image/Shape.png"
       },
@@ -35,7 +40,6 @@
         "iconPath": "./pages/image/myself.png",
         "selectedIconPath": "./pages/image/myselfs.png"
       }
-      
     ]
   },
   "style": "v2",

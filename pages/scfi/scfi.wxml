@@ -1,0 +1,21 @@
+<!--pages/scfi/scfi.wxml-->
+
+
+<view class="box">
+  <view class="top">
+  <navigator class="topleft iconfont icon-back" open-type="navigateBack" hover-class="navigator-hover" />
+    科幻
+    <view class="topright iconfont icon-liebiao"></view>
+  </view>
+
+    <view class="rexiaobox">
+        <view class="rexiao-dea" wx:for="{{rexiao}}" wx:key="key">
+          <image class="rexiaoimg" src="{{item.img}}"></image>
+          <view class="rexiao-dea-right">
+            <view class="rexiaobn">{{item.bookname}}</view>
+            <view class="rexiaon">{{item.name}}</view>
+            <view class="rexiaojs">{{item.jieshao}}</view>
+          </view>
+        </view>
+  </view>
+</view>

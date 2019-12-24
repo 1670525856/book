@@ -1,0 +1,61 @@
+/* pages/scfi/scfi.wxss */
+
+@import "../image/iconfont.wxss";
+
+.box{
+  background-color: #21272e;
+  padding: 0 48rpx;
+}
+.top{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40rpx 0;
+}
+
+.rexiaobox {
+  padding-bottom: 60rpx;
+}
+
+.rexiao-dea {
+  height: 250rpx;
+  background-color: #2b323b;
+  padding: 0 0 30rpx 30rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin: 75rpx 0rpx 90rpx;
+}
+
+.rexiao-dea-right {
+  float: left;
+  width: 390rpx;
+}
+
+.rexiaoimg {
+  width: 170rpx;
+  height: 250rpx;
+  float: left;
+  margin-top: -30rpx;
+  margin-right: 28rpx;
+}
+
+.rexiaobn {
+  padding-top: 30rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.rexiaon {
+  color: #53596f;
+  margin-top: 13rpx;
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #353c46;
+  
+}
+
+.rexiaojs {
+  font-size: 24rpx;
+  color: #868dab;
+  margin-top: 15rpx;
+}

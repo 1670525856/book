@@ -9,6 +9,7 @@ Page({
      {
        name:'科幻',
        img:'../image/paihang1.png',
+       url:'/pages/scfi/scfi'
      },
      {
        name: '生活',

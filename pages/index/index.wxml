@@ -7,7 +7,9 @@
     <view class="top-left iconfont icon-jiangbei"></view>
     <view class="top-right iconfont icon-liebiao"></view>
   </view>
-  <input class="input iconfont" placeholder="搜索..." placeholder-style="color:#9da3b4;"></input>
+  <navigator class="" url="/pages/search/search" hover-class="navigator-hover">
+    <input class="input iconfont" placeholder="搜索..." placeholder-style="color:#9da3b4;"></input>
+  </navigator>
 
 
   <view class="paihang">
@@ -17,10 +19,10 @@
     </view>
     <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
       <view class="dea-box">
-        <view class="dea" wx:for="{{sort}}" wx:key="key">
+        <navigator class="dea" wx:for="{{sort}}" wx:key="key" url="{{item.url}}" hover-class="navigator-hover">
           <image class="img" src="{{item.img}}"></image>
           <view class="deaname"> {{item.name}} </view>
-        </view>
+        </navigator>
       </view>
     </scroll-view>
   </view>

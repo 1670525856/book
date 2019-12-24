@@ -1,0 +1,29 @@
+<!--pages/explore/explore.wxml-->
+
+<view class="box">
+
+  <view class="top">
+    <view class="topl"></view>
+    探索
+    <view class="iconfont topicon" >
+      <view catchtap="changehid" class="iconfont icon-leimupinleifenleileibie {{num==1?'active':''}}" data-num="1"></view>
+      <view catchtap="changehid" class="iconfont icon-square {{num==2?'active':''}}" data-num="2"></view>
+    </view>
+  </view>
+
+  <view class="tsdetial " class="hide{{hid?'':'show'}}">
+    <image class="img" src="../image/tansuo1.jpg" />
+    <view class="bookname">三体：死神永生</view>
+    <view class="name">李廉洁</view>
+
+    <view class="tximgbox">
+      <view class="tximg" wx:for="{{tsimg}}" wx:key="key" style="background-image: url('{{item.src}}')"></view>
+    </view>
+
+    <view class="yuedu">475人已阅读</view>
+  </view>
+
+
+
+  <tem-tansuo class="hide{{hid?'show':''}}"></tem-tansuo>
+</view>

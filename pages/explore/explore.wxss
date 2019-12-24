@@ -1,0 +1,81 @@
+/* pages/explore/explore.wxss */
+
+@import "../image/iconfont.wxss";
+
+.box{
+  padding: 0 48rpx;
+  background-color: #21272e;
+  overflow: hidden;
+  padding-bottom: 220rpx;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 50rpx 0;
+  font-size: 50rpx;
+}
+.topl{
+  width: 112rpx;
+}
+.topicon{
+  display: flex;
+  font-size: 32rpx;
+}
+.iconfont{
+  margin-left: 24rpx;
+  color: #71768c;
+}
+.active{
+  color: #fff;
+}
+
+.img{
+  width: 390rpx;
+  height: 580rpx;
+  border-radius: 40rpx;
+  display: block;
+  margin: 45rpx auto;
+}
+
+.bookname{
+  font-size: 50rpx;
+  color: #fff;
+  margin-bottom: 32rpx;
+  text-align: center;
+}
+.name{
+  font-size: 32rpx;
+  color: #656a7b;
+  padding-bottom: 72rpx;
+  border-bottom: 1rpx solid #2e3640;
+  text-align: center;
+  width: 390rpx;
+  margin: 0 auto;
+}
+.tximgbox{
+  display: flex;
+  justify-content: space-between;
+  width: 310rpx;
+  margin: 45rpx auto 35rpx;
+}
+.tximg{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  background-size: 80%;
+  background-position: center;
+}
+.yuedu{
+  color: #a2a8ba;
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}

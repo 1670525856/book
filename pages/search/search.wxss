@@ -1,0 +1,78 @@
+/* pages/search/search.wxss */
+
+@import "../image/iconfont.wxss";
+.box{
+  padding: 30rpx 48rpx;
+    background-color: #21272e;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 85%;
+  height: 95rpx;
+  background-color: #2d353d;
+  border-radius: 90rpx;
+  position: relative;
+  color: #9da3b4;
+  padding-left: 90rpx;
+  box-sizing: border-box;
+}
+.input::before {
+  content: '\e642';
+  font-size: 36rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+}
+.qx{
+  color: #8d92a5;
+  font-size: 28rpx;
+}
+
+.sort-bt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin-bottom: 45rpx;
+  margin-top: 70rpx;
+}
+
+.sort-bt-l {
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.sort-bt-r {
+  font-size: 28rpx;
+  color: #959bac;
+}
+
+.dea-box {
+  display: flex;
+  color: #fff;
+  padding-bottom: 55rpx;
+ padding-right: 48rpx;
+  margin-right: -48rpx;
+  justify-content: space-between;
+}
+.dea {
+  margin-bottom: 95rpx;
+}
+.newimg {
+  width: 192rpx;
+  height: 296rpx;
+}
+.bookname {
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+}
+
+.newdeaname {
+  font-size: 24rpx;
+  color: #3d4352;
+}
+

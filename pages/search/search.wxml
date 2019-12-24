@@ -1,0 +1,20 @@
+<!--pages/search/search.wxml-->
+
+<view class="box">
+  <view class="top">
+    <input class="input iconfont" placeholder="搜索..." placeholder-style="color:#9da3b4;"></input>
+    <view class="qx">取消</view>
+  </view>
+
+    <view class="sort-bt">
+      <view class="sort-bt-l">分类排行</view>
+      <view class="sort-bt-r">查看全部 ></view>
+    </view>
+    <view class="dea-box">
+      <view class="dea" wx:for="{{xinfabu}}" wx:key="key">
+        <image class="newimg" src="{{item.img}}"></image>
+        <view class="bookname"> {{item.bookname}} </view>
+        <view class="newdeaname "> {{item.name}} </view>
+      </view>
+    </view>
+</view>
