@@ -1,0 +1,34 @@
+/* pages/balance/balance.wxss */
+@import "../image/iconfont.wxss";
+
+.box{
+  background-color: #21272e;
+  padding: 0 48rpx 900rpx;
+  overflow: hidden;
+}
+.yebox{
+  background-color: #2b323b;
+  padding: 50rpx 40rpx;
+  margin-top: 70rpx;
+  border-radius: 10rpx;
+}
+.yew{
+  font-size: 36rpx;
+  color: #616b77;
+  margin-bottom: 50rpx;
+}
+.yenum{
+  font-size: 100rpx;
+  color: #fff;
+}
+.chongzhi{
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #fb6894;
+  padding: 50rpx 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}

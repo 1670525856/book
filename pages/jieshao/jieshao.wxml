@@ -1,0 +1,81 @@
+<!--pages/jieshao/jieshao.wxml-->
+
+<view class="box">
+  <view class="bookifm clearfix">
+    <image class="bookimg" src="../image/jieshao1.png"></image>
+    <view class="bookdea">
+      <view class="bookname">三体：死神永生</view>
+      <view class="name">作者：刘慈欣</view>
+      <view class="bookjs">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</view>
+      <view class="pingfen">
+        <image class="iconx" src="../image/iconxing.png"></image>
+        <view class="pingf">5.0</view>
+      </view>
+    </view>
+  </view>
+  <view class="caozuo">
+    <view class="iconfont icon-favor-active" bindtap="btn">收藏 </view>
+    <view class="iconfont icon-fenxiang" bindtap="fx">分享</view>
+    <view class="iconfont icon-shujia">放入书架</view>
+  </view>
+
+  <view class="deajs">
+    <view class="jstitle">详情</view>
+    <view class="jsdea">与三体文明的战争使人类第一次看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，在暗夜中发抖。自以为历经沧桑，其与三体文明的战争使人类第一次看到了宇宙黑暗的真相，</view>
+  </view>
+
+  <view class="see">
+    <view class="seeml">查看目录</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+
+  <view class="pldea">
+    <navigator class="pltitle" url="/pages/comment/comment">
+      <view class="pltitle-l">
+        <view class="pl">评论</view>
+        <view class="plnum">215条评论</view>
+      </view>
+      <view class="iconfont icon-pinglun8"></view>
+    </navigator>
+
+
+
+    <view class="plneirong">
+      <view class="plneirong-name">
+        <image class="plimg" src="../image/plimg.png"></image>
+        <view class="plname">废物</view>
+      </view>
+      <view class="plneirong-dea">
+        <view class="plneirong-wz">
+          大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典——站在圣母和傻逼的微笑曲线上。大大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典——站在圣母和傻逼的微笑曲线上。大大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典——站在圣母和傻逼的微笑曲线上。
+        </view>
+        <view class="plneirong-xx">
+          <view class="data">12-04 21:20</view>
+          <view class="zanhuifu">
+            <view class="iconfont icon-favor-active zhf">134</view>
+            <view class="iconfont icon-pinglun zhf">89</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+<view class="botbtn">
+  <view class="sk">试看</view>
+  <view class="gm">购买</view>
+</view>
+
+<view class="shoucang" wx:if="{{show}}">
+  <image class="shoucangimg" src="../image/jieshao1.png"></image>
+  <view class="tishi">已经将这本书加入到个人书架</view>
+  <view class="shoucang-btn" bindtap="btn">好的</view>
+</view>
+
+<view class="fenxiang" wx:if="{{hid}}">
+  <view class="iconfont icon-guanbi" bindtap="fx"></view>
+  <view class="fximg" wx:for="{{list}}" wx:key="key">
+    <image class="fenxiangimg" src="{{item.src}}"></image>
+  </view>
+</view>

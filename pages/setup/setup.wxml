@@ -1,0 +1,31 @@
+<!--pages/setup/setup.wxml-->
+
+
+<view class="box">
+  <view class="grxxbox">
+    <view class="gexx">查看账户</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">个人资料</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">消息提醒</view>
+    <switch type="switch" color="#fb6894" checked="true"></switch>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">清理缓存</view>
+    <view class="iconfont icon-zuo yue">128MB</view>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">帮助中心</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">关于我们</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+
+  <view class="tcdl">退出登录</view>
+</view>

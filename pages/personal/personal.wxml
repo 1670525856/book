@@ -1,0 +1,51 @@
+<!--pages/personal/personal.wxml-->
+
+
+<view class="box">
+  <view class="top">
+    <view class="topleft"></view>
+    我的
+    <navigator url="/pages/setup/setup" class="topright iconfont icon-shezhi"></navigator>
+  </view>
+
+  <view class="my clearfix">
+    <image class="myimg" src="/pages/image/myimg.jpg"></image>
+    <view class="my-right">
+      <view class="name">李雪零</view>
+    <view class="dizhi">中国·纽约</view>
+    <view class="iconfont icon-fenxiang">分享</view>
+    </view>
+  </view>
+
+  <view class="num">
+    <view class="numlx">
+      <view class="mumsl">1286</view>
+      <view class="numlxx">关注</view>
+    </view>
+    <view class="numlx">
+    <view class="mumsl">3368</view>
+      <view class="numlxx">粉丝</view>
+    </view>
+    <view class="numlx">
+    <view class="mumsl">6673</view>
+      <view class="numlxx">喜欢</view>
+    </view>
+  </view>
+
+  <view class="grxxbox">
+    <view class="gexx">个人信息</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+  <view class="grxxbox">
+    <view class="gexx">我的消息</view>
+    <view class="xiaoxi">6</view>
+  </view>
+  <navigator class="grxxbox" url="/pages/balance/balance">
+    <view class="gexx">账户余额</view>
+    <view class="yue iconfont icon-zuo">1375.00</view>
+  </navigator>
+  <view class="grxxbox">
+    <view class="gexx">我的评论</view>
+    <view class="iconfont icon-zuo"></view>
+  </view>
+</view>

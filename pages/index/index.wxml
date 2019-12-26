@@ -49,11 +49,11 @@
       <view class="sort-bt-r">查看全部 ></view>
     </view>
     <view class="dea-box newdea-box">
-      <view class="dea newdea" wx:for="{{xinfabu}}" wx:key="key">
+      <navigator url="/pages/jieshao/jieshao" class="dea newdea" wx:for="{{xinfabu}}" wx:key="key">
         <image class="newimg" src="{{item.img}}"></image>
         <view class="bookname"> {{item.bookname}} </view>
         <view class="newdeaname "> {{item.name}} </view>
-      </view>
+      </navigator>
     </view>
   </view>
 

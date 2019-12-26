@@ -1,0 +1,61 @@
+/* pages/bookshelf/bookshelf.wxss */
+@import "../image/iconfont.wxss";
+
+.box{
+  background-color: #21272e;
+  padding: 0 48rpx;
+}
+.top{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 0;
+  font-size: 36rpx;
+}
+.topleft{
+  width: 16rpx;
+}
+
+
+.sort-bt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin-bottom: 45rpx;
+  margin-top: 55rpx;
+}
+
+.sort-bt-l {
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.sort-bt-r {
+  font-size: 28rpx;
+  color: #959bac;
+}
+
+.dea-box {
+  display: flex;
+  color: #fff;
+  padding-right: 48rpx;
+  margin-right: -48rpx;
+  justify-content: space-between;
+}
+
+.newimg {
+  width: 192rpx;
+  height: 296rpx;
+}
+
+.bookname {
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+}
+
+.newdeaname {
+  font-size: 24rpx;
+  color: #3d4352;
+}

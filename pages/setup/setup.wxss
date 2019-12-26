@@ -1,0 +1,49 @@
+/* pages/setup/setup.wxss */
+
+@import "../image/iconfont.wxss";
+
+.box{
+  background-color: #21272e;
+  padding: 0 48rpx 300rpx;
+}
+
+.grxxbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 0rpx;
+  border-bottom:1rpx solid #333c47;
+}
+.gexx{
+  font-size: 34rpx;
+  color: #dcdeea;
+
+}
+.icon-zuo{
+  color: #a2a8ba;
+}
+
+.yue{
+  position: relative;
+  padding-right: 45rpx;
+  font-size: 24rpx;
+}
+.yue::before{
+  position: absolute;
+  right: 0;
+  color: #a2a8ba;
+  font-size: 32rpx;
+}
+
+.tcdl{
+  width: 100%;
+  padding: 50rpx 0rpx;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 36rpx;
+  color: #dcdeea;
+  background-color: #2e363f;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

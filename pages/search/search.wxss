@@ -1,15 +1,18 @@
 /* pages/search/search.wxss */
-
 @import "../image/iconfont.wxss";
-.box{
+
+.box {
   padding: 30rpx 48rpx;
-    background-color: #21272e;
+  background-color: #21272e;
+  padding-bottom: 300rpx;
 }
-.top{
+
+.top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .input {
   width: 85%;
   height: 95rpx;
@@ -20,6 +23,7 @@
   padding-left: 90rpx;
   box-sizing: border-box;
 }
+
 .input::before {
   content: '\e642';
   font-size: 36rpx;
@@ -27,7 +31,8 @@
   top: 30rpx;
   left: 30rpx;
 }
-.qx{
+
+.qx {
   color: #8d92a5;
   font-size: 28rpx;
 }
@@ -53,18 +58,16 @@
 .dea-box {
   display: flex;
   color: #fff;
-  padding-bottom: 55rpx;
- padding-right: 48rpx;
+  padding-right: 48rpx;
   margin-right: -48rpx;
   justify-content: space-between;
 }
-.dea {
-  margin-bottom: 95rpx;
-}
+
 .newimg {
   width: 192rpx;
   height: 296rpx;
 }
+
 .bookname {
   font-size: 28rpx;
   margin-top: 30rpx;
@@ -76,3 +79,20 @@
   color: #3d4352;
 }
 
+.icon-shanchu-copy-copy {
+  font-size: 36rpx;
+}
+.history{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24rpx;
+  color: #dadade;
+
+}
+.history-item{
+  padding: 14rpx 45rpx;
+  background-color: #45485b;
+  margin-right: 18rpx;
+  border-radius: 40rpx;
+  margin-bottom: 20rpx;
+}

@@ -17,4 +17,12 @@
         <view class="newdeaname "> {{item.name}} </view>
       </view>
     </view>
+
+    <view class="sort-bt">
+      <view class="sort-bt-l">搜索历史</view>
+      <view class="sort-bt-r iconfont icon-shanchu-copy-copy"></view>
+    </view>
+    <view class="history">
+      <view class="history-item" wx:for="{{his}}" wx:key="key">{{item.title}}</view>
+    </view>
 </view>

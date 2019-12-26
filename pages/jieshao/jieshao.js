@@ -1,40 +1,21 @@
-// pages/search/search.js
+// pages/jieshao/jieshao.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    xinfabu: [
+    show:false,
+    hid:false,
+    list:[
       {
-        bookname: '三体：死神永生',
-        name: '刘慈欣',
-        img: '../image/paihang9.png',
-      },
-      {
-        bookname: '人类简史',
-        name: '尤瓦尔·赫拉利',
-        img: '../image/paihang10.png',
-      },
-      {
-        bookname: '许三观卖血记',
-        name: '余华',
-        img: '../image/paihang11.png',
-      },
-      
-    ],
-    his:[
-      {
-        title:'艺术设计'
-      },{
-        title: '自由人像雕塑'
+        src:'/pages/image/fenxiang1.png'
       }, {
-        title: '人文环境'
-      }
-      , {
-        title: '未来简史'
+        src: '/pages/image/fenxiang2.png'
       }, {
-        title: '李廉洁'
+        src: '/pages/image/fenxiang3.png'
+      }, {
+        src: '/pages/image/fenxiang4.png'
       }
     ]
   },
@@ -42,6 +23,19 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+
+  btn:function(n){
+    this.setData({
+      show: !this.data.show
+    })
+
+  },
+  fx: function (n) {
+    this.setData({
+      hid: !this.data.hid
+    })
+
+  },
   onLoad: function (options) {
 
   },

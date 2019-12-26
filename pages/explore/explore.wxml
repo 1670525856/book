@@ -11,19 +11,23 @@
     </view>
   </view>
 
-  <view class="tsdetial " class="hide{{hid?'':'show'}}">
-    <image class="img" src="../image/tansuo1.jpg" />
+  <view class="tsdetial " class="hide{{hid?'':'show'}}" >
+    <image class="img" src="../image/jieshao1.png" />
     <view class="bookname">三体：死神永生</view>
     <view class="name">李廉洁</view>
 
     <view class="tximgbox">
-      <view class="tximg" wx:for="{{tsimg}}" wx:key="key" style="background-image: url('{{item.src}}')"></view>
+      <view class="tximg" wx:for="{{volume}}" wx:key="key" style="background-image: url('{{item.src}}')"></view>
     </view>
-
     <view class="yuedu">475人已阅读</view>
   </view>
 
+  <!-- <tem-tansuo class="hide{{hid?'show':''}}"></tem-tansuo> -->
 
-
-  <tem-tansuo class="hide{{hid?'show':''}}"></tem-tansuo>
+  <view class="ts-dea-box hide{{hid?'show':''}}">
+    <view class="ts-dea" wx:for="{{ volume }}" wx:key="key" data-idd="index" bindtap="book" >
+      <image class="bookimg" src="{{item.touxiang}}"></image>
+      <view class="bookname">{{item.bookname}}</view>
+    </view>
+  </view>
 </view>

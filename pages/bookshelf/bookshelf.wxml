@@ -1,0 +1,36 @@
+<!--pages/bookshelf/bookshelf.wxml-->
+
+<view class="box">
+  <view class="top">
+    <view class="topleft"></view>
+    书架
+    <view class="topright iconfont icon-liebiao"></view>
+  </view>
+
+  <view class="sort-bt">
+    <view class="sort-bt-l">正在阅读</view>
+    <view class="sort-bt-r">查看全部 ></view>
+  </view>
+
+  <view class="dea-box">
+    <view class="dea" wx:for="{{xinfabu}}" wx:key="key">
+      <image class="newimg" src="{{item.img}}"></image>
+      <view class="bookname"> {{item.bookname}} </view>
+      <view class="newdeaname "> {{item.name}} </view>
+    </view>
+  </view>
+
+  <view class="sort-bt">
+    <view class="sort-bt-l">未读</view>
+    <view class="sort-bt-r">查看全部 ></view>
+  </view>
+
+  <view class="dea-box">
+    <view class="dea" wx:for="{{xinfabu}}" wx:key="key">
+      <image class="newimg" src="{{item.img}}"></image>
+      <view class="bookname"> {{item.bookname}} </view>
+      <view class="newdeaname "> {{item.name}} </view>
+    </view>
+  </view>
+
+</view>

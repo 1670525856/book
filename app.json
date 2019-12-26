@@ -1,13 +1,18 @@
 {
   "pages": [
-      "pages/search/search",
+    "pages/personal/personal",
+    "pages/setup/setup",
     "pages/index/index",
+    "pages/bookshelf/bookshelf",
+    "pages/jieshao/jieshao",
+    "pages/comment/comment",
     "pages/explore/explore",
     "pages/scfi/scfi",
     "pages/logs/logs",
     "pages/moban/moban",
-    "components/tansuo/tansuo"
-  
+    "pages/search/search",
+    "components/tansuo/tansuo",
+    "pages/balance/balance"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,12 +36,12 @@
         "selectedIconPath": "./pages/image/Shape.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/bookshelf/bookshelf",
         "iconPath": "./pages/image/book.png",
         "selectedIconPath": "./pages/image/books.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/personal/personal",
         "iconPath": "./pages/image/myself.png",
         "selectedIconPath": "./pages/image/myselfs.png"
       }

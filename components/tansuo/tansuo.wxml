@@ -1,8 +1,9 @@
 <!--components/tansuo/tansuo.wxml-->
 
-<view class="ts-dea-box">
-    <view class="ts-dea" wx:for="{{dea}}" wx:key="key">
-      <image class="bookimg" src="{{item.src}}"></image>
-      <view class="bookname">{{item.name}}</view>
+
+  <view class="ts-dea-box" >
+    <view class="ts-dea" wx:for="{{ volume }}" wx:key="key" data-idd="index" >
+      <image class="bookimg" src="{{item.touxiang}}"></image>
+      <view class="bookname">{{item.bookname}}</view>
     </view>
   </view>

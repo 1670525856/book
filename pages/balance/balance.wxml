@@ -1,0 +1,12 @@
+<!--pages/balance/balance.wxml-->
+
+<view class="box">
+
+<view class="yebox">
+  <view class="yew">我的余额（元）</view>
+  <view class="yenum">1375.00</view>
+</view>
+
+<view class="chongzhi">充值</view>
+
+</view>

@@ -1,0 +1,51 @@
+/* pages/comment/comment.wxss */
+
+@import '../image/iconfont';
+
+.box{
+  padding: 0rpx 48rpx 20rpx;
+  background-color: #21272e;
+  overflow: hidden;
+}
+.plneirong{
+  margin-top: 60rpx;
+}
+.plneirong-name{
+  display: flex;
+  align-items: center;
+}
+.plimg{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 25rpx;
+}
+.plname{
+  color: #fff;
+
+}
+.plneirong-dea{
+  margin-left: 90rpx;
+  color: #868dab;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  padding-bottom: 40rpx;
+   border-bottom: 1rpx solid #323644;
+}
+.plneirong-xx{
+  margin-top: 40rpx;
+  color: #656a7b;
+  display: flex;
+  justify-content: space-between;
+}
+.zanhuifu{
+  display: flex;
+
+}
+.zhf{
+  font-size: 26rpx;
+  margin-right: 30rpx;
+}
+.zhf::before{
+  color: #71768c;
+  margin-right: 15rpx;
+}

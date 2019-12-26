@@ -1,42 +1,11 @@
-// pages/search/search.js
+// pages/setup/setup.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    xinfabu: [
-      {
-        bookname: '三体：死神永生',
-        name: '刘慈欣',
-        img: '../image/paihang9.png',
-      },
-      {
-        bookname: '人类简史',
-        name: '尤瓦尔·赫拉利',
-        img: '../image/paihang10.png',
-      },
-      {
-        bookname: '许三观卖血记',
-        name: '余华',
-        img: '../image/paihang11.png',
-      },
-      
-    ],
-    his:[
-      {
-        title:'艺术设计'
-      },{
-        title: '自由人像雕塑'
-      }, {
-        title: '人文环境'
-      }
-      , {
-        title: '未来简史'
-      }, {
-        title: '李廉洁'
-      }
-    ]
+
   },
 
   /**

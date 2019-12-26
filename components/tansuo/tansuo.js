@@ -11,6 +11,7 @@ Component({
    * 组件的初始数据
    */
   data: {
+    volume:[],
     dea: [
       {
       src: '/pages/image/tansuo21.png',
@@ -29,6 +30,17 @@ Component({
       name: '未来简史'
     }
     ]
+  },
+  onLoad: function (options) {
+    hid: (options.hid == "true" ? true : false),
+      wx.request({
+        url: 'https://wujunhui.xyz/getbooks',
+        success: (res) => {
+          this.setData({
+            volume: res.data
+          })
+        }
+      })
   },
 
   /**

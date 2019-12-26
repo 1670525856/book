@@ -1,0 +1,23 @@
+<!--pages/comment/comment.wxml-->
+
+
+<view class="box">
+  <view class="plneirong" wx:for="{{pl}}" wx:key="key">
+    <view class="plneirong-name">
+      <image class="plimg" src="{{item.plimg}}"></image>
+      <view class="plname">{{item.name}}</view>
+    </view>
+    <view class="plneirong-dea">
+      <view class="plneirong-wz">
+        {{item.wz}}
+      </view>
+      <view class="plneirong-xx">
+        <view class="data">{{item.sj}}</view>
+        <view class="zanhuifu">
+          <view class="iconfont icon-favor-active zhf">{{item.dz}}</view>
+          <view class="iconfont icon-pinglun zhf">{{item.hf}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
