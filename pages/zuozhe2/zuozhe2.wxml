@@ -1,0 +1,68 @@
+<!--pages/zuozhe2/zuozhe2.wxml-->
+
+<view class="box">
+
+
+  <view class="my clearfix">
+    <image class="myimg" src="/pages/image/myimg.jpg"></image>
+    <view class="my-right">
+      <view class="name">田晓花</view>
+      <view class="dizhi">中国·纽约</view>
+      <view class="iconfont icon-fenxiang">分享</view>
+      <view class="guanzhu">+关注</view>
+    </view>
+  </view>
+
+  <view class="num">
+    <view class="numlx">
+      <view class="mumsl">1286</view>
+      <view class="numlxx">关注</view>
+    </view>
+    <view class="numlx">
+      <view class="mumsl">3368</view>
+      <view class="numlxx">粉丝</view>
+    </view>
+    <view class="numlx">
+      <view class="mumsl">6673</view>
+      <view class="numlxx">喜欢</view>
+    </view>
+  </view>
+
+  <view class="dbz">
+    <view class="dbz-l">代表作</view>
+    <view class="dbz-r">总共 3 本书</view>
+  </view>
+
+  <view class="dbbox">
+    <view class="item clearfix">
+      <image class="bookimg" src="../image/kehuan1.png"></image>
+      <view class="item-r ">
+        <view class="bookname">海王</view>
+        <view class="pinglun">
+          <image class="xing" src="../image/iconxing.png"></image> 5.0</view>
+        <view class="jianjie">讲述的是一段 历经20年的非同寻常的友情我和自闭症少年“小安”相 识在小...</view>
+        <view class="renshu">366 人阅读</view>
+      </view>
+    </view>
+    <view class="item clearfix">
+      <image class="bookimg" src="../image/kehuan1.png"></image>
+      <view class="item-r ">
+        <view class="bookname">海王</view>
+        <view class="pinglun">
+          <image class="xing" src="../image/iconxing.png"></image> 5.0</view>
+        <view class="jianjie">讲述的是一段 历经20年的非同寻常的友情我和自闭症少年“小安”相 识在小...</view>
+        <view class="renshu">366 人阅读</view>
+      </view>
+    </view>
+    <view class="item clearfix">
+      <image class="bookimg" src="../image/kehuan1.png"></image>
+      <view class="item-r ">
+        <view class="bookname">海王</view>
+        <view class="pinglun">
+          <image class="xing" src="../image/iconxing.png"></image> 5.0</view>
+        <view class="jianjie">讲述的是一段 历经20年的非同寻常的友情我和自闭症少年“小安”相 识在小...</view>
+        <view class="renshu">366 人阅读</view>
+      </view>
+    </view>
+  </view>
+</view>

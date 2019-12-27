@@ -1,0 +1,156 @@
+/* pages/zuozhe2/zuozhe2.wxss */
+@import "../image/iconfont.wxss";
+
+.box{
+  background-color: #21272e;
+  padding: 0 48rpx 240rpx;
+    overflow: hidden;
+}
+
+.clearfix {
+  overflow: auto;
+  _height: 1%;
+}
+.my{
+  margin-top: 50rpx;
+  position: relative;
+  margin-bottom: 50rpx;
+
+}
+.myimg{
+  width: 245rpx;
+  height: 245rpx;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30rpx;
+}
+
+.my-right{
+  float: left;
+  margin-top: 35rpx;
+}
+
+.name{
+  font-size: 36rpx;
+  color: #fff;
+}
+.dizhi{
+  font-size: 28rpx;
+  color: #b5b7c5;
+  margin-top: 15rpx;
+  padding-bottom: 30rpx;
+  
+}
+.icon-fenxiang{
+  color: #71768c;
+
+  width: 180rpx;
+  height: 65rpx;
+  border: 3rpx solid #545d66;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  line-height: 65rpx;
+  margin-right: 20rpx;
+}
+.icon-fenxiang::before{
+  margin-right: 15rpx;
+
+}
+.guanzhu{
+  color: #fff;
+  width: 180rpx;
+  height: 65rpx;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #478ce0;
+  text-align: center;
+  line-height: 65rpx;
+}
+
+.num{
+  padding: 30rpx 60rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b323b;
+  border-radius: 15rpx;
+  margin-bottom: 90rpx;
+}
+.numlx{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 75rpx;
+  border-right: 1rpx solid #363c45;
+}
+.numlx:last-child{
+  border: none;
+  padding:0;
+}
+.mumsl{
+  color: #fff;
+  font-size: 32rpx;
+
+}
+.numlxx{
+  font-size: 24rpx;
+  color: #75808d;
+}
+
+.dbz{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  color: #fff;
+}
+.dbz-r{
+  font-size: 24rpx;
+  color: #478ce0;
+}
+.item{
+  margin-top: 50rpx;
+  padding-bottom: 50rpx;
+  border-bottom: 1rpx solid #2b323b;
+}
+.bookimg{
+  width: 170rpx;
+  height: 250rpx;
+  float: left;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+
+}
+.item-r{
+  float: left;
+  width: 450rpx;
+}
+.bookname{
+  font-size: 34rpx;
+  color: #fff;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.pinglun{
+  font-size: 36rpx;
+  color: #ffce44;
+
+}
+.xing{
+  width: 30rpx;
+  height: 30rpx;
+}
+.jianjie{
+  font-size: 24rpx;
+  color: #999fb0;
+  margin-bottom: 12rpx;
+
+}
+.renshu{
+  font-size: 24rpx;
+  color: #478ce0;
+
+}

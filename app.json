@@ -1,10 +1,13 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/zuozhe2/zuozhe2",
+    "pages/zuozhe/zuozhe",
+    "pages/jieshao/jieshao",
+    "pages/gouwuche/gouwuche",
     "pages/personal/personal",
     "pages/setup/setup",
-    "pages/index/index",
     "pages/bookshelf/bookshelf",
-    "pages/jieshao/jieshao",
     "pages/comment/comment",
     "pages/explore/explore",
     "pages/scfi/scfi",
@@ -12,7 +15,9 @@
     "pages/moban/moban",
     "pages/search/search",
     "components/tansuo/tansuo",
-    "pages/balance/balance"
+    "pages/balance/balance",
+    "pages/chongzhi/chongzhi",
+    "pages/fenlei/fenlei"
   ],
   "window": {
     "backgroundTextStyle": "light",

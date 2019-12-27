@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<import src="../moban/moban.wxml" />
 
 
 <view class="home">
@@ -15,7 +14,7 @@
   <view class="paihang">
     <view class="sort-bt">
       <view class="sort-bt-l">分类排行</view>
-      <view class="sort-bt-r">查看全部 ></view>
+      <navigator url="/pages/fenlei/fenlei" class="sort-bt-r">查看全部 ></navigator>
     </view>
     <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
       <view class="dea-box">
@@ -30,8 +29,8 @@
 
   <view class="paihang">
     <view class="sort-bt">
-      <view class="sort-bt-l">作者排行</view>
-      <view class="sort-bt-r">查看全部 ></view>
+      <view  class="sort-bt-l">作者排行</view>
+      <navigator url="/pages/zuozhe/zuozhe" class="sort-bt-r">查看全部 ></navigator>
     </view>
     <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
       <view class="dea-box">

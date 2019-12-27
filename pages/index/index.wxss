@@ -44,9 +44,6 @@
   left: 30rpx;
 }
 
-.input::placeholder {
-  color: red;
-}
 
 .paihang {
   border-bottom: 1rpx solid #2f343c;

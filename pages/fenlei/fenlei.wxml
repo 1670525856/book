@@ -1,0 +1,48 @@
+<!--pages/fenle/fenle.wxml-->
+<view class="color">
+  <view class="fenle_wrap">
+    <input class="input iconfont" placeholder="搜索..." placeholder-style="color:#9da3b4;"></input>
+    <view>
+      <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+        <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">科幻</view>
+        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">职场</view>
+        <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">言情</view>
+        <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">艺术</view>
+        <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">科学</view>
+        <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">军事</view>
+        <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">全部</view>
+        <view class="tab-item {{currentTab==7?'active':''}}" data-current="7" bindtap="swichNav">其他</view>
+      </scroll-view>
+      <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab" style="height:1500rpx">
+        <swiper-item wx:for="{{[0,1,2,3,4,5,6,7]}}">
+          <view class="ranking">
+            <view class="title">
+              <text class="author">新上架</text>
+              <text class="all">查看全部 ></text>
+            </view>
+            <view class="a b">
+              <view wx:for="{{shuju}}" wx:key="*this" bindtap="xinxi" data-mei="{{item.text}}" class="tw">
+                <image src="{{item.img}}"></image>
+                <text>{{item.text}}</text>
+                <text class="text">{{item.name}}</text>
+              </view>
+            </view>
+          </view>
+          <view class="ranking ranking1">
+            <view class="title">
+              <text class="author">热门</text>
+              <text class="all">查看全部 ></text>
+            </view>
+            <view class="a b">
+              <view wx:for="{{shuju}}" wx:key="*this" bindtap="xinxi" data-mei="{{item.text}}" class="tw">
+                <image src="{{item.img}}"></image>
+                <text>{{item.text}}</text>
+                <text class="text">{{item.name}}</text>
+              </view>
+            </view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,177 @@
+/* pages/zuozhe/zuozhe.wxss */
+@import '../image/iconfont';
+
+.color{
+  background-color: #21272e;
+  overflow: hidden;
+}
+.author_wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top {
+  text-align: center; 
+  padding-top: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.hg image {
+  width: 70rpx;
+  height: 50rpx;
+  position: absolute;
+  top: -42rpx;
+  left: 35rpx;
+}
+
+.gh image {
+  width: 100rpx;
+  height: 80rpx;
+  position: absolute;
+  top: -64rpx;
+  left: 42rpx;
+}
+
+.two {
+  position: relative;
+}
+
+.touxiang {
+  width: 140rpx;
+  height: 140rpx;
+  border: 1px solid #fff;
+  border-radius: 70rpx;
+}
+
+.tou {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 90rpx;
+}
+
+.paiming {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100rpx;
+  border-bottom: 1px solid #343946;
+}
+
+.xh {
+  border: 1px solid #fff;
+  background-color: #fdaf01;
+  width: 30rpx;
+  line-height: 30rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  position: absolute;
+  left: 55rpx;
+  top: 126rpx;
+}
+
+.hx {
+  position: absolute;
+  left: 72rpx;
+  top: 164rpx;
+}
+
+.name {
+  color: #fdaf01;
+  text-align: center;
+  margin: 20rpx 0rpx;
+}
+
+.fensi {
+  text-align: center;
+  color: #a2a8ba;
+  font-size: 24rpx;
+  padding-bottom: 40rpx;
+}
+
+.xx {
+  background-color: #f44380;
+}
+
+.hh {
+  background-color: #00a2ff;
+}
+
+.aa {
+  color: #f44380;
+}
+
+.nn {
+  color: #00a2ff;
+}
+
+.author {
+  color: white;
+}
+
+.all {
+  color: #a2a8ba;
+  font-size: 24rpx;
+  float: right;
+}
+
+.ranking>.title {
+  overflow: hidden;
+  margin: 40rpx 0;
+}
+
+.tuwen>image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 70rpx;
+}
+
+.tuwen>text {
+  color: #fff;
+  display: block;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+
+.tuwen {
+  margin-right: 20rpx;
+}
+
+.ranking {
+  border-bottom: 1px solid #343946;
+}
+
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.guanzhu>text {
+  color: #fff;
+  display: block;
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+  font-size: 26rpx;
+  text-align: center;
+  padding: 10rpx 20rpx;
+  border: 1px solid #545d66;
+  border-radius: 5px;
+}

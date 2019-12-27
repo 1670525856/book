@@ -1,0 +1,30 @@
+<!--pages/chongzhi/chongzhi.wxml-->
+
+<view class="box">
+
+  <view class="yebox">
+    <view class="yew">充值余额（元）</view>
+    <input class="yenum" value="{{searchCode}}" confirm-type="search" bindconfirm="getSearchResult" bindblur="getSearchValue" bindinput="getSearchInput"></input>
+  </view>
+
+  <view class="chongzhi" bindtap="cz">下一步</view>
+
+  <view class="qrfk" wx:if="{{show}}">
+    <view class="qrfkwz">确认付款（元）</view>
+    <view class="jine"> {{searchCode}}</view>
+    <view class="grxxbox">
+      <view class="gexx">订单信息</view>
+      <view class="gexxright">充值</view>
+    </view>
+    <view class="grxxbox">
+      <view class="gexx">订单信息</view>
+      <view class="yue iconfont icon-zuo">中国银行卡（0288）</view>
+    </view>
+    <view class="yanzheng">
+      <image class="yanzhengimg" src="../image/zhiwen.png"></image>
+      指纹验证或
+      <view class="mima">输入密码</view>
+      <view class="iconfont icon-guanbi" bindtap="cz"></view>
+    </view>
+  </view>
+</view>

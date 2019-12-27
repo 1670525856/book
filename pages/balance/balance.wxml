@@ -7,6 +7,6 @@
   <view class="yenum">1375.00</view>
 </view>
 
-<view class="chongzhi">充值</view>
+<navigator class="chongzhi" url="/pages/chongzhi/chongzhi">充值</navigator>
 
 </view>
